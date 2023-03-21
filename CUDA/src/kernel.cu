@@ -1,6 +1,4 @@
-//
-// Created by ltc on 2021/11/1.
-//
+
 #include "kernel.cuh"
 
 __global__ void kernelAdd(Map<Matrix<double, Dynamic, Dynamic, RowMajor>> m1,
